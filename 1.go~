@@ -1,0 +1,7 @@
+package main
+import "fmt"
+import "./package1"
+func main(){
+fmt.Println("In main")
+abc()
+}
