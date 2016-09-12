@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+int main(){
+int t;
+cin>>t;
+while(t--){
+char s[12346];
+cin>>s;
+cout<<s;
+
+}
+return 0;
+}
