@@ -1,0 +1,18 @@
+package main
+
+    import (
+        "fmt"
+       // "time"
+	"os"
+	"bufio"
+    )
+
+    func main() {
+      
+      //  go func() {
+            scanner := bufio.NewReader(os.Stdin)
+	    fmt.Print(":: ")   
+	    in,_ := scanner.ReadString('\n')
+	    fmt.Println(in)
+     //   }()
+}

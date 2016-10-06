@@ -1,0 +1,63 @@
+Website Speed Optimization Tips:-
+
+We have produced articles which provide you tips for speeding up your website numerous times before. Finding all those tips split among different articles doesn’t help you much, however, so here they all are in one convenient place.
+
+Tweaks
+These tweaks are easy changes you can make to settings on your server to improve its performance.
+
+Enable GZIP compression
+If you are utilizing cPanel, you can do this easily by going into the “Website Optimization” page under the Advanced tab.
+
+Remove Unused Modules
+Look in your CMS, Apache, and PHP settings and find modules, apps, and themes that you aren’t utilizing. Disable or remove them as appropriate.
+
+Clean Databases
+For older websites, particularly ones which use CMSes, you may have a lot of databases with extraneous data in it. Particularly look for spam comments or leftover bits from deleted plugins and themes.
+
+Apps and Add-Ons
+A number of useful programs can be utilized to speed your site.
+
+Caching Plugins
+If you use a CMS like WordPress, look into a caching plugin. This will store your content on a visitor’s browser so it isn’t loaded fresh every time they visit (unless you change something on the page). For WordPress, we recommend W3 Total Cache.
+
+Stay Updated
+Make sure to keep all your programs, plugins, and other software updated to current release versions. This will make sure they remain compatible and stable. If something has ceased updating, we recommend looking for a replacement in the long term.
+
+Use Libraries or Frameworks
+For complicated sites, using frameworks or libraries like jQuery or Laravel can help optimize your performance. If your site is simpler, using these may actually contribute to bloat and slow your site. If using these, you may want to use the files from Google’s CDN, which moves the load from your server to Google’s.
+
+Content Delivery Network
+A content deliver network, or CDN, replicates your content on servers closer to end-users, enabling them to load it faster. We recommend using CloudFlare, available through the ServInt Portal.
+
+Coding & Design
+Your code obviously has a pretty heavy impact on your site’s performance. If you’re not a coder, don’t fret! There are a few things you can do despite that.
+
+Minify Code
+Minifying code removes extraneous bits and reduces the size of individual files. You can use a program like Google’s Minify or one of a number of free web-based tools that can do the same.
+
+Reduce Image Size
+First, when you upload your images to your site, make sure they are the exact size you want them displayed at rather than downsizing them with code. If a visitor is looking at a 1000 x 1000 image displayed at 500 x 500, they still need to download the 1000 x 1000 image. Second, you can use a program like Smush.It to compress your images to smaller sizes.
+
+Place Script Tags at the Bottom of Files
+Because browsers download scripts before other content, putting them at the bottom can provide a smoother loading experience.
+
+Remove CSS & Javascript from HTML
+CSS and Javascript code should be in their own files and then included in files that need them.
+
+Reduce DNS Lookups
+Multiple subdomains can increase the amount of time required for DNS lookups. If you have a small number of resources to load, you should limit yourself to a single subdomain for any page.
+
+Avoid Multiple Tracking Scripts
+Multiple tracking scripts slow down your site’s load time. Don’t use, for example, Google Analytics and WP Stats at the same time.
+
+Tools
+These tools can help you benchmark your site’s speed and determine ways to improve it.
+
+Yslow.org
+Yslow is a browser plugin which will analyze pages as they load to examine what might be causing slow downs.
+
+Pingdom Tools
+Type in a web address and this tool will analyze how the page loads and give you information on what you can do to improve it.
+
+Google PageSpeed Insights
+Google’s PageSpeed insights are incredibly robust and can provide you with a very deep look at performance tweaks you can make. Some of the solutions are more advanced.
